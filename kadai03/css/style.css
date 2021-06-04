@@ -1,0 +1,68 @@
+html{
+  font-size: 62.5%;
+}
+div#output{
+  max-width: 60%;
+  font-size: 1.2rem;
+  border: 5px solod #000;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div#output p:nth-child(odd){
+  background-color: white;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
+  width: fit-content
+}
+div#output p:nth-child(even){
+  background-color:lightgrey;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border-radius: 12px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.6);
+  margin-left: auto;
+  width: fit-content;
+}
+#username{
+  padding: 5px;
+  
+}
+#text{
+  padding: 5px;
+}
+.send_area{
+  width:  1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 0 auto 0 auto;
+}
+.name_area{
+  width: 800px;
+  /* text-align: center; */
+  /* justify-content: center; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_area{
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  /* flex-wrap: wrap; */
+}
+.send_btn{
+  margin-left: 20px;
+  padding: 0 10px;
+  background: white;
+  /* font-size: 2.0rem;
+  font-weight: bold; */
+  border: 0;
+}
